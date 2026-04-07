@@ -1,0 +1,231 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "password",
+      "role": "Admin",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "2",
+      "name": "Hotel Manager 1",
+      "email": "manager@example.com",
+      "password": "password",
+      "role": "Hotel Manager",
+      "contactNumber": "0987654321"
+    },
+    {
+      "id": "3",
+      "name": "Guest User 1",
+      "email": "guest@example.com",
+      "password": "password",
+      "role": "Guest",
+      "contactNumber": "1112223333"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Grand Plaza Hotel",
+      "location": "New York, USA",
+      "managerId": "2",
+      "amenities": ["Free WiFi", "Pool", "Gym", "Spa"],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Ocean View Resort",
+      "location": "Miami, USA",
+      "managerId": "2",
+      "amenities": ["Beach Access", "Free Breakfast", "Pool"],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3",
+      "name": "Taj Coromandel",
+      "location": "Chennai, India",
+      "managerId": "2",
+      "amenities": ["Spa", "Free WiFi", "Fine Dining", "Gym", "Pool"],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1542314831-c6a4d14d8c53?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "4",
+      "name": "ITC Grand Chola",
+      "location": "Chennai, India",
+      "managerId": "2",
+      "amenities": ["Luxury Spa", "Multiple Restaurants", "Pool", "Gym", "Concierge"],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1551882547-ff40c0dffe19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "5",
+      "name": "The Leela Palace",
+      "location": "New Delhi, India",
+      "managerId": "2",
+      "amenities": ["Rooftop Pool", "Free Breakfast", "Gym", "Airport Shuttle"],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1596436889106-be35e843f974?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "6",
+      "name": "The Taj Mahal Palace",
+      "location": "Mumbai, India",
+      "managerId": "2",
+      "amenities": ["Sea View", "Heritage Tours", "Spa", "Pool"],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "101",
+      "hotelId": "1",
+      "type": "Standard",
+      "price": 150,
+      "availability": true,
+      "features": ["1 Queen Bed", "City View"]
+    },
+    {
+      "id": "102",
+      "hotelId": "1",
+      "type": "Deluxe",
+      "price": 250,
+      "availability": true,
+      "features": ["1 King Bed", "Ocean View", "Balcony"]
+    },
+    {
+      "id": "201",
+      "hotelId": "2",
+      "type": "Suite",
+      "price": 400,
+      "availability": true,
+      "features": ["2 King Beds", "Oceanfront", "Jacuzzi"]
+    },
+    {
+      "id": "301",
+      "hotelId": "3",
+      "type": "Standard",
+      "price": 120,
+      "availability": true,
+      "features": ["1 Queen Bed", "City View", "Free Breakfast"]
+    },
+    {
+      "id": "302",
+      "hotelId": "3",
+      "type": "Deluxe",
+      "price": 180,
+      "availability": true,
+      "features": ["1 King Bed", "City View", "Bathtub"]
+    },
+    {
+      "id": "303",
+      "hotelId": "3",
+      "type": "Suite",
+      "price": 320,
+      "availability": true,
+      "features": ["2 King Beds", "Living Area", "Premium Spa Access"]
+    },
+    {
+      "id": "401",
+      "hotelId": "4",
+      "type": "Executive",
+      "price": 200,
+      "availability": true,
+      "features": ["1 King Bed", "City View", "Lounge Access"]
+    },
+    {
+      "id": "402",
+      "hotelId": "4",
+      "type": "Luxury Suite",
+      "price": 450,
+      "availability": true,
+      "features": ["1 King Bed", "Panoramic View", "Private Butler"]
+    },
+    {
+      "id": "501",
+      "hotelId": "5",
+      "type": "Premium",
+      "price": 150,
+      "availability": true,
+      "features": ["1 Queen Bed", "Garden View"]
+    },
+    {
+      "id": "502",
+      "hotelId": "5",
+      "type": "Deluxe",
+      "price": 220,
+      "availability": true,
+      "features": ["1 King Bed", "City View", "Mini Bar"]
+    },
+    {
+      "id": "601",
+      "hotelId": "6",
+      "type": "Heritage Room",
+      "price": 300,
+      "availability": true,
+      "features": ["1 King Bed", "Sea View", "Antique Decor"]
+    },
+    {
+      "id": "602",
+      "hotelId": "6",
+      "type": "Royal Suite",
+      "price": 800,
+      "availability": true,
+      "features": ["2 King Beds", "Sea View", "Private Dining", "Butler Service"]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": "3",
+      "roomId": "101",
+      "checkInDate": "2026-05-01",
+      "checkOutDate": "2026-05-05",
+      "status": "Confirmed",
+      "paymentId": "payment-1"
+    }
+  ],
+  "payments": [
+    {
+      "id": "payment-1",
+      "userId": "3",
+      "bookingId": "1",
+      "amount": 600,
+      "status": "Paid",
+      "paymentMethod": "Credit Card"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "userId": "3",
+      "hotelId": "1",
+      "rating": 5,
+      "comment": "Amazing stay! The pool is great.",
+      "timestamp": "2026-04-01T10:00:00Z",
+      "response": null
+    }
+  ],
+  "loyaltyAccounts": [
+    {
+      "id": "1",
+      "userId": "3",
+      "pointsBalance": 1200,
+      "lastUpdated": "2026-04-01T10:00:00Z"
+    }
+  ],
+  "redemptions": [
+    {
+      "id": "1",
+      "userId": "3",
+      "bookingId": "1",
+      "pointsUsed": 200,
+      "discountAmount": 20.0
+    }
+  ]
+}
